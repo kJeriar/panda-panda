@@ -1,0 +1,50 @@
+/* 
+Código Hexadecimal verde: #8EC641
+Código Hexadecimal gris footer: #3B3B3B
+*/
+
+body{
+	margin: 0px;
+}
+
+ul{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	font-family: Roboto;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+}
+
+img{
+	/*caracteristicas de las imagenes, tamaño, margen, colores de esto, etc*/
+	display: inline-block;
+	margin-right: 5px;
+	margin-top: 30px;
+	border: 5px solid whitesmoke;
+	width: 35%;
+	margin-left: 100px;
+	text-align: justify;
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+	background-color: #FFE900;
+	color:#333;
+}
+
+.foto-texto{
+	text-align: center;
+}
+
